@@ -1,7 +1,7 @@
 from math import nan, isnan
 from typing import Any, Annotated, Optional, TypeVar
 from datetime import datetime
-from data_models.sf311.fields import *
+from data_models.SF311.fields import *
 from pydantic import BaseModel, HttpUrl, Field, computed_field
 from pydantic_extra_types.coordinate import Coordinate
 from pydantic.functional_validators import AfterValidator, BeforeValidator
